@@ -90,7 +90,7 @@ export default defineComponent({
     <Section class="bg-gray-900 pt-16 h-screen">
         <div class="h-2/3 flex flex-wrap content-between border-gray-600 pb-36">
             <div>
-                <p class="border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! this is Ivan Larrañaga. I'm an obsessive web developer working with Laravel.</p>
+                <p class="border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! this is Ivan Larrañaga. I'm a obsessive Jr. web developer working with Laravel.</p>
                 
                 <!-- Current Profile Photo -->
                 <div class="flex justify-center">
@@ -119,7 +119,7 @@ export default defineComponent({
 
     <!-- Skills -->
     <Section id="skills" class="bg-gray-200 text-gray-800 h-screen">
-        <h2 class="text-6xl font-bold pt-3">Skills</h2>
+        <h2 class="text-6xl font-bold pt-3">Skills & Tools</h2>
         
         <div class="grid grid-cols-2">
             <div v-for="(skill, skillIndex) in skills" :key="skill.id">
@@ -150,7 +150,7 @@ export default defineComponent({
         <h2 class="text-6xl font-bold pt-3">Projects</h2>
             <div class="mt-3 px-44">
                 <p class="text-center text-lg">
-                    "Because Laravel is such more than online shops"
+                    "Because Laravel is such more than e-commerce apps"
                 </p> 
             </div>
             <div v-for="project in projects" :key="project.id">

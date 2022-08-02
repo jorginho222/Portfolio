@@ -31735,7 +31735,7 @@ var _hoisted_3 = {
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase"
-}, "Hey! this is Ivan Larrañaga. I'm an obsessive web developer working with Laravel.", -1
+}, "Hey! this is Ivan Larrañaga. I'm a obsessive Jr. web developer working with Laravel.", -1
 /* HOISTED */
 );
 
@@ -31773,7 +31773,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-6xl font-bold pt-3"
-}, "Skills", -1
+}, "Skills & Tools", -1
 /* HOISTED */
 );
 
@@ -31794,7 +31794,7 @@ var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
   "class": "mt-3 px-44"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center text-lg"
-}, " \"Because Laravel is such more than online shops\" ")], -1
+}, " \"Because Laravel is such more than e-commerce apps\" ")], -1
 /* HOISTED */
 );
 
