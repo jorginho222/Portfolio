@@ -31773,7 +31773,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
   "class": "text-6xl font-bold pt-3"
-}, "Skills & Tools", -1
+}, "Skills and Tools", -1
 /* HOISTED */
 );
 
