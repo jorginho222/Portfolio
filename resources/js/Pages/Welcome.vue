@@ -90,7 +90,7 @@ export default defineComponent({
     <Section class="bg-gray-900 pt-16 h-screen">
         <div class="h-2/3 flex flex-wrap content-between border-gray-600 pb-36">
             <div>
-                <p class="border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! this is Ivan Larrañaga. I'm a obsessive Jr. web developer working with Laravel.</p>
+                <p class="border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! This is Ivan Larrañaga. I'm a obsessive Jr. web developer working with Laravel.</p>
                 
                 <!-- Current Profile Photo -->
                 <div class="flex justify-center">
