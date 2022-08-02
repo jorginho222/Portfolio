@@ -119,7 +119,7 @@ export default defineComponent({
 
     <!-- Skills -->
     <Section id="skills" class="bg-gray-200 text-gray-800 h-screen">
-        <h2 class="text-6xl font-bold pt-3">Skills and Tools</h2>
+        <h2 class="text-6xl font-bold pt-3">Skills & Tools</h2>
         
         <div class="grid grid-cols-2">
             <div v-for="(skill, skillIndex) in skills" :key="skill.id">
