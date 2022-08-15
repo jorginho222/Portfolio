@@ -2,8 +2,8 @@
     <section class="
         flex
         items-center
-        px-44
         py-6
+        2xl:px-44
     ">
         <div
             :class="color"

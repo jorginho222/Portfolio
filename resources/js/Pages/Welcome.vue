@@ -69,15 +69,18 @@ export default defineComponent({
     <Head title="Welcome" />
 
     <div class="
-        flex
-        justify-between
-        py-10
-        px-72
+        py-5
+        px-10
         bg-indigo-800
         text-gray-300
+        md:flex
+        md:justify-between
+        md:px-28
+        lg:py-10
+        lg:px-72
     ">
-        <div>
-            <p class="text-gray-200 font-bold text-2xl">
+        <div class="mb-4 flex justify-evenly items-center cursor-default select-none">
+            <p class="text-center text-gray-200 font-bold text-2xl">
                 { ivanurportfolio.com }
             </p>
         </div>
@@ -87,10 +90,10 @@ export default defineComponent({
     </div>
 
     <!-- Main-->
-    <Section class="bg-gray-900 pt-16 h-screen">
-        <div class="h-2/3 flex flex-wrap content-between border-gray-600 pb-36">
+    <Section class="bg-gray-900 pt-16 lg:h-screen">
+        <div class="flex flex-wrap content-between border-gray-600 pb-36 lg:h-2/3">
             <div>
-                <p class="border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! This is Ivan Larrañaga. I'm a obsessive Jr. web developer working with Laravel.</p>
+                <p class="border-b-2 font-bold border-gray-400 pb-3 text-2xl text-gray-300 uppercase">Hey! This is Ivan Larrañaga. I'm a junior web developer working with Laravel.</p>
                 
                 <!-- Current Profile Photo -->
                 <div class="flex justify-center">
@@ -118,10 +121,10 @@ export default defineComponent({
     </Section> 
 
     <!-- Skills -->
-    <Section id="skills" class="bg-gray-200 text-gray-800 h-screen">
-        <h2 class="text-6xl font-bold pt-3">Skills & Tools</h2>
+    <Section id="skills" class="bg-gray-200 text-gray-800 lg:h-screen">
+        <h2 class="text-4xl md:text-6xl font-bold pt-3">Skills & Tools</h2>
         
-        <div class="grid grid-cols-2">
+        <div class="md:grid grid-cols-2">
             <div v-for="(skill, skillIndex) in skills" :key="skill.id">
                 <Skill
                     :name="skill.name"
@@ -146,9 +149,9 @@ export default defineComponent({
     </Section>
 
     <!-- Projects -->
-    <Section id="projects" class="bg-gray-600 text-gray-200 h-screen">
-        <h2 class="text-6xl font-bold pt-3">Projects</h2>
-            <div class="mt-3 px-44">
+    <Section id="projects" class="bg-gray-600 text-gray-200 lg:h-screen">
+        <h2 class="text-4xl md:text-6xl font-bold pt-3">Projects</h2>
+            <div class="mt-5 2xl:px-44">
                 <p class="text-center text-lg">
                     "Because Laravel is such more than e-commerce apps"
                 </p> 
@@ -176,8 +179,8 @@ export default defineComponent({
     </Section>
 
     <!-- Footer -->
-    <Section class="flex justify-between bg-gray-800 text-gray-300">
-        <p class="text-xl">Developed by Ivan Larrañaga &copy; {{ new Date().getFullYear() }}</p>
+    <Section class="bg-gray-800 text-gray-300 md:flex justify-between">
+        <p class="text-center text-xl">Developed by Ivan Larrañaga &copy; {{ new Date().getFullYear() }}</p>
         <Contact></Contact>
     </Section>
 
@@ -206,7 +209,7 @@ export default defineComponent({
                 @submit.prevent="submit"
             >
                 <jet-input
-                    class="px-5 py-3 w-96 border border-gray-600 rounded"
+                    class="px-5 py-3 w-72 md:w-96 border border-gray-600 rounded"
                     type="email"
                     name="email"
                     placeholder="Your email"
@@ -217,7 +220,7 @@ export default defineComponent({
                 <jet-input-error :message="form.errors.email" />
 
                 <textarea
-                    class="px-5 py-3 w-96 border border-gray-600 rounded mt-5"
+                    class="px-5 py-3 w-72 md:w-96 border border-gray-600 rounded mt-5"
                     name="message"
                     placeholder="The details :)"
                     v-model="form.message"
@@ -226,7 +229,7 @@ export default defineComponent({
                 <jet-input-error :message="form.errors.message" />
 
                 <jet-button
-                    class="px-5 py-3 mt-5 w-96 bg-purple-400 justify-center rounded-xl text-sm"
+                    class="px-5 py-3 mt-5 w-72 md:w-96 bg-purple-400 justify-center rounded-xl text-sm"
                     :disabled="form.processing"
                 >
                     <span class="animate-spin mr-1" v-show="form.processing">
